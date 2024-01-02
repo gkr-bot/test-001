@@ -18,5 +18,5 @@ jobs:
         with:
           max_post_count: 500
           readme_path: './articles/README.md'
-          comment_tag_name: "BLOG-POST-LIST"
+          comment_tag_name: "ALL-POSTS-LIST"
           feed_list: "https://numericaideas.com/feed/"
