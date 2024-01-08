@@ -14,7 +14,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Pull Ni posts
-        uses: gautamkrishnar/blog-post-workflow@tests
+        uses: gautamkrishnar/blog-post-workflow@master
         with:
           max_post_count: 500
           readme_path: './articles/README.md'
