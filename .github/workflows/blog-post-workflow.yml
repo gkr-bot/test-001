@@ -14,7 +14,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Test Keepalive
-        uses: gautamkrishnar/keepalive-workflow@master
+        uses: gautamkrishnar/blog-post-workflow@master
         with:
           output_only: true
       - run: cat /tmp/blog_post_workflow_output.json
