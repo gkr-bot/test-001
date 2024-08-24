@@ -17,5 +17,6 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@master
         with:
           output_only: true
+          feed_list: "https://dev.to/feed/gautamkrishnar"
       - run: cat /tmp/blog_post_workflow_output.json
         
