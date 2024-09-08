@@ -16,5 +16,5 @@ jobs:
       - name: Test Keepalive
         uses: gautamkrishnar/blog-post-workflow@develop
         with:
-          feed_list: "https://dev.to/feed/gautamkrishnar,https://www.gautamkrishnar.com/feed/"
+          feed_list: "https://dev.to/feed/gautamkrishnar,https://www.gautamkrishnars.com/feed/"
           
