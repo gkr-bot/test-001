@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@develop
+        uses: actions/checkout@v3
       - name: Test Keepalive
         uses: gautamkrishnar/blog-post-workflow@develop
         with:
