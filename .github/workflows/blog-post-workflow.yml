@@ -1,7 +1,5 @@
 name: All the articles workflow
 on:
-  schedule:
-    - cron: "0 0 * * *"
   workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the GitHub Actions Workflow page directly
 permissions:
   contents: write # To write the generated contents to the readme
@@ -14,7 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Test Keepalive
-        uses: gautamkrishnar/blog-post-workflow@develop
+        uses: gautamkrishnar/blog-post-workflow@v2
         with:
           feed_list: "https://dev.to/feed/gautamkrishnar,https://www.gautamkrishnar.com/feed/"
           
